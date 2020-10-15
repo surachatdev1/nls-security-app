@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+	<div height="100%">
+
+		<hbox vflex="1" hflex="1" align="center" pack="center"
+			spacing="20px">
+			<vlayout>
+				<window id="loginWin"
+					apply='com.nls.security.app.controller.LoginController'
+					title="Login with you name" border="normal" hflex="min">
+					<vbox hflex="min" align="center">
+						<grid hflex="min">
+							<columns>
+								<column hflex="min" align="right" />
+								<column />
+							</columns>
+							<rows>
+								<row>
+									Username :
+									<textbox id="txtUsername" width="200px" />
+								</row>
+								<row>
+									Password :
+									<textbox id="txtPassword" type="password" width="200px" />
+								</row>
+							</rows>
+						</grid>
+						<button id="btnSubmit" label="Login" />
+
+					</vbox>
+				</window>
+			</vlayout>
+		</hbox>
+
+	</div>
+</zk>
