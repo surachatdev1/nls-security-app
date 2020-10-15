@@ -17,11 +17,11 @@
 							<rows>
 								<row>
 									Username :
-									<textbox id="txtUsername" width="200px" />
+									<textbox id="txtUsername" width="180px" />
 								</row>
 								<row>
 									Password :
-									<textbox id="txtPassword" type="password" width="200px" />
+									<textbox id="txtPassword" type="password" width="180px" />
 								</row>
 							</rows>
 						</grid>
