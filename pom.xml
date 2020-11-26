@@ -100,7 +100,7 @@
 		
 		<dependency>
 			<groupId>org.zkoss.theme</groupId>
-			<artifactId>iceblue_c</artifactId>
+			<artifactId>sapphire</artifactId>
 			<version>9.0.0.1</version>
 		</dependency>
 	</dependencies>
